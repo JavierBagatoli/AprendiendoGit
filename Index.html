@@ -18,6 +18,10 @@
             <p><b>git commit</b> <i>-m "datos"</i> -> Nos permite inizialziar el registro de git para una carpeta.</p>
             <p><b>git checkout</b> <i>[objeto commit o nombre de rama]</i> -> nos permite viajar "en el tiempo" o entre ramas del repositorio</p>
             <p><b>git branch</b> -> nos permite ver las ramas existentes en nuestro proyecto.</p>
+            <p><b>git clone</b> -> nos descargar el repositorio a nuestro pc.</p>
+            <p><b>git log</b> -> nos muestra un registro detallado con los commits y notas</p>
+            <p><b>git reset</b><i>[--soft] o [--hard]</i> -> el primero borrara el objeto commit, el segundo borra el objeto y los datos en pc<p>
+            <p><b>git merge</b><i>[rama]</i> integra la rama objetivo al HEAP (posicion actual)</p>
         </div>
     </div>
     <br/>
@@ -36,8 +40,23 @@
     <h2>¿Que es GitHub?</h2>
     <p>Es una plataforma online donde los programadores suben sus proyectos, que dentro de la plataforma se llaman repositorios.</p>
     <p>Tambien nos permite tener una forma grafica para ver la evolucion de nuestro proyecto.</p>
-
-    <p><b>verde</b></p>
-    <p>Esta página web es una página HTML válida.</p>
+    <p>Conceptos</p>
+    <div class="tarjeta">
+        <div class="tarjetaCuerpo">
+            <p><b>Fork</b> -> Crear una copia de un repositorio ajeno en nuestro perfil para trabajarlo</p>
+            <p><b>PullRequest</b> -> Si hemos realizado cambios podemos ofrecerlos al dueño para que actualice su proyecto.</p>
+            <p><b>Issues</b> -> Es la forma en que los usuarios que interactúen con el proyecto pueden notificar sus problemas 
+                o pedir cambios en el mismo, funciona como un comentario/foro para que el/los desarrolladores pueden mantener actualizado el proyecto o estar en contacto con los consumidores.</p>
+        </div>
+    </div>
+    <p>Comandos para relacionar Git con GitHub</p>   
+    <div class="tarjeta">
+        <div class="tarjetaCuerpo">
+            <p><b>Git remote add</b><i>"nombre" "url del proyecto"</i> -> Crea un enlace que esta vinculado a la url y se llama "nombre" (lo normal es "origin").</p>
+            <p><b>Git remote remove</b><i>"nombre"</i> -> Elimina el enlace elegido.</p>
+            <p><b>Git push</b><i>"origin" "rama"</i> -> Sube el HEAD usando el enlace a la rama indicada (de no indicarse tomara la rama en que esta)</p>
+            <p><b>Git fetch</b><i>"nombre del enlace"</i> -> Sirve para actualizar tu version de proyecto desactualizada. [Esto es util si trabajas en tu pc y alguien actualiza el proyecto]</p>
+        </div>
+    </div>
 </body>
 </html>
