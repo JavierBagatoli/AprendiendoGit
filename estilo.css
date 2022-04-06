@@ -43,3 +43,10 @@ p{
     border-radius: 30px;
     border-style: solid;
 }
+
+a{
+    color: #edf0ea;
+}
+a:visited{
+    color: aquamarine;
+}
