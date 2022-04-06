@@ -29,3 +29,17 @@ p{
     padding-left: 30px;
     text-align: left;
 }
+
+.anotacion{
+    width: 80%;
+    padding: 5px 15px;
+    background-color: #1F363D;
+    border-style: dotted;
+    border-radius: 0px;
+    border-color: #9EC1A3;
+    transition: 0.3s;
+}
+.anotacion:hover{
+    border-radius: 30px;
+    border-style: solid;
+}
