@@ -7,25 +7,25 @@
   <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <h1>Contról de versiones</h1>
+    <h1>Control de versiones</h1>
     <p>
         El eje de esta herramienta es el control de versiones, cada cierto tiempo es posible que debamos encontrar 
-        las diferencias entre versioens o encontrar en que version especifica se añadio algun comportamiento a 
-        nuestro proyecto
+        las diferencias entre versiones o encontrar en que versión especifica se añadió algún comportamiento a 
+        nuestro proyecto.
     </p>
     <h4>git bisect</h4>
     <div class="tarjeta">
         <div class="tarjetaCuerpo">
             <h3>Uso</h3>
-            <p><b>git bisect start</b> ↦ Comenzara el estado de comparacion de git</p>
+            <p><b>git bisect start</b> ↦ Comenzará el estado de comparación  de git</p>
             <p><b>git bisect new</b>["commit del proyecto"]</p>
             <p><b>git bisect old</b>["commit del proyecto"]</p>
             <div class="anotacion">
-                <p>Para el caso en que nos llege a confundir los terminos <i>new</i> o <i>old</i> existe</p>
+                <p>Para el caso en que nos llegue a confundir los términos <i>new</i> o <i>old</i> existe</p>
             <p><b>git bisect start <i>--term-old</i> "nombre" y <i>--term-new</i> "nombre" </b></p>
             </div>
-            <p><b>git bisect skip </b> ↦ Nos permite saltar una etapa de comparacion.</p>
-            <p><b>git bisect reset</b> ↦ Dara por concluida la exploracion y nos regresara al HEAD.</p>
+            <p><b>git bisect skip </b> ↦ Nos permite saltar una etapa de comparación.</p>
+            <p><b>git bisect reset</b> ↦ Dara por concluida la exploración y nos regresara al HEAD.</p>
         </div>
     </div>
     <h2>Fusión de Ramas</h2>
@@ -36,12 +36,11 @@
         onclick="alert('Carezco de experiencia para poder afirma que el funcionamiento de git rebase como indico')">
             <p><b>git merge</b><i>[Nombre de la que voy a unir a la en que estoy]</i> ↦ Une ambas ramas y permite ver 
                 los commits de forma paralela</p>
-            <p><b>git rebase</b> <i>[Nombre de rama que se unira a que estoy] </i> ↦ Pone la rama actual al final de 
+            <p><b>git rebase</b> <i>[Nombre de rama que se unirá a que estoy] </i> ↦ Pone la rama actual al final de 
                 la seleccionada dejando un <b>log de commits</b> lineal</p>
             <p><b>git rebase -i</b> <i>"commit~ numero de versiones anteriores"</i> ↦ Al igual que <i>git rebase xxx
-
-            </i> permite un log de commits lineal pero en este caso sobrescribe a partir del elegido (los commit 
-            posteriores a ese punto seran los de nuestra rama) </p>
+            </i> permite un log de commits lineal pero para este caso sobrescribe a partir del elegido (los commit 
+            posteriores a ese punto serán los de nuestra rama) </p>
         </div>
     </div>
     <br/>
